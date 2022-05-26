@@ -70,7 +70,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber_final/")
+      (outputdirectory "")
     )
   )
 
@@ -125,99 +125,92 @@
     (attr smd)
     (fp_text reference "U2" (at 1.84 -1.165 -90 unlocked) (layer "User.5")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 03ac89db-71a0-4863-b815-397519bacde8)
+      (tstamp 2bc813d8-5aa1-4b69-ac40-29ee5293d034)
     )
     (fp_text value "E32400M30S" (at 12.508 40.745 -90 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 84ddbd6a-be65-4ba7-bed3-80e53e24a910)
+      (tstamp 2b31c2ac-9003-4b3e-92f3-2509c2c519a9)
     )
-    (fp_line (start 0 22) (end 0 25.4) (layer "F.SilkS") (width 0.12) (tstamp 254e5c85-ef6f-47fc-87bd-567a0fc98fe0))
-    (fp_line (start 24 36.83) (end 24 34.89) (layer "F.SilkS") (width 0.12) (tstamp 54e38abe-961b-4810-af39-91ec6064011c))
-    (fp_line (start 24 22) (end 24 25.4) (layer "F.SilkS") (width 0.12) (tstamp 6648ac36-e64c-411e-b89b-035799c35451))
-    (fp_line (start 24 0) (end 24 1) (layer "F.SilkS") (width 0.12) (tstamp 6e240c30-ec61-4ba0-8cc8-0d3f1a375e06))
-    (fp_line (start 0 36.83) (end 24 36.83) (layer "F.SilkS") (width 0.12) (tstamp 70b352b8-618a-4837-8232-d9fdcd6f5e24))
-    (fp_line (start 0 0) (end 0 1) (layer "F.SilkS") (width 0.12) (tstamp b5e9d271-f037-419b-b129-bc903381d08f))
-    (fp_line (start 0 36.83) (end 0 34.89) (layer "F.SilkS") (width 0.12) (tstamp eaab2938-b4f3-4ebb-ba61-9bb6382be53e))
-    (fp_line (start 0 0) (end 24 0) (layer "F.SilkS") (width 0.12) (tstamp f55e6e0d-18c4-478a-9c68-7d14cc85309d))
-    (pad "1" smd rect (at 24 32.731 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 32 "unconnected-(U2-Pad1)") (pinfunction "GND") (pintype "input") (tstamp f65cb95c-b361-4260-b24a-1b857cd0326a))
-    (pad "2" smd rect (at 24 30.191 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 33 "unconnected-(U2-Pad2)") (pinfunction "GND") (pintype "input") (tstamp 8e4a2ef7-0688-4f30-9191-1f8a036694d0))
-    (pad "3" smd rect (at 24 27.651 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 34 "unconnected-(U2-Pad3)") (pinfunction "GND") (pintype "input") (tstamp 75658d12-f34f-4d65-95f3-54b607364d19))
+    (fp_line (start 24 38.5) (end 24 36.56) (layer "F.SilkS") (width 0.12) (tstamp 0608e32c-61f1-4e02-868e-a0d150910f1c))
+    (fp_line (start 0 38.5) (end 0 36.56) (layer "F.SilkS") (width 0.12) (tstamp 0b80ea6a-3fca-487b-82a0-c544057d0f50))
+    (fp_line (start 0 22) (end 0 28) (layer "F.SilkS") (width 0.12) (tstamp 37791803-7502-4e9d-969d-6956dd37a0eb))
+    (fp_line (start 24 0) (end 24 1) (layer "F.SilkS") (width 0.12) (tstamp 3fb7eb7a-16a3-4673-917b-62904c1c13c3))
+    (fp_line (start 0 0) (end 0 1) (layer "F.SilkS") (width 0.12) (tstamp 50e712b6-799e-4c68-87db-29478a219409))
+    (fp_line (start 0 38.5) (end 24 38.5) (layer "F.SilkS") (width 0.12) (tstamp 544a6851-4d90-47df-8f8e-85f5b90b37cc))
+    (fp_line (start 0 0) (end 24 0) (layer "F.SilkS") (width 0.12) (tstamp 62da0d7c-e5e0-4baa-8ce4-99eeedc271be))
+    (fp_line (start 24 22) (end 24 27.94) (layer "F.SilkS") (width 0.12) (tstamp eb9d839b-ac10-41df-8a5a-d8a824d17eb1))
+    (pad "1" smd rect (at 24 34.731 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 32 "unconnected-(U2-Pad1)") (pinfunction "GND") (pintype "input") (tstamp 2b104cfc-684f-4045-a215-6c25871ff13b))
+    (pad "2" smd rect (at 24 32.191 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 33 "unconnected-(U2-Pad2)") (pinfunction "GND") (pintype "input") (tstamp 755f125f-23e8-4f9f-939c-26d16ca9348a))
+    (pad "3" smd rect (at 24 29.651 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 34 "unconnected-(U2-Pad3)") (pinfunction "GND") (pintype "input") (tstamp 786bbd47-ba67-40d8-af7c-f76bae728b5e))
     (pad "4" smd rect (at 24 20.351 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 35 "unconnected-(U2-Pad4)") (pinfunction "GND") (pintype "input") (tstamp 03bb9b38-c09c-424f-9bc5-5068af64d38f))
+      (net 35 "unconnected-(U2-Pad4)") (pinfunction "GND") (pintype "input") (tstamp 73ec31ed-9895-4a47-a1dd-70d83acaa674))
     (pad "5" smd rect (at 24 17.811 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 36 "unconnected-(U2-Pad5)") (pinfunction "GND") (pintype "input") (tstamp 27e29902-3294-40a4-b047-00788bfbef99))
+      (net 36 "unconnected-(U2-Pad5)") (pinfunction "GND") (pintype "input") (tstamp 281db05e-45e8-4708-8a8a-46582d1874c2))
     (pad "6" smd rect (at 24 15.271 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 5 "Net-(R2-Pad1)") (pinfunction "RXEN") (pintype "input") (tstamp d994901b-3f30-41e9-9459-0604c555fdf4))
+      (net 5 "Net-(R2-Pad1)") (pinfunction "RXEN") (pintype "input") (tstamp 37490d11-710c-42b1-84e6-4b6d85cdd2fa))
     (pad "7" smd rect (at 24 12.731 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 3 "Net-(R1-Pad1)") (pinfunction "TXEN") (pintype "input") (tstamp 58d70f19-a01e-4244-9efa-b060ca8dfde1))
+      (net 3 "Net-(R1-Pad1)") (pinfunction "TXEN") (pintype "input") (tstamp 8020e638-2392-4228-9de7-4e844bd1348d))
     (pad "8" smd rect (at 24 10.191 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 37 "unconnected-(U2-Pad8)") (pinfunction "DIO2") (pintype "bidirectional") (tstamp 13e455ed-5a15-41d9-99a5-b70d8819ebd5))
+      (net 37 "unconnected-(U2-Pad8)") (pinfunction "DIO2") (pintype "bidirectional") (tstamp f1570622-0c6b-4b0a-8aa9-a04b880717fe))
     (pad "9" smd rect (at 24 7.651 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 61f6bf65-b581-41a0-9b05-c658009b7026))
+      (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 76d93c0d-a184-46a0-a3e1-191d212e09b4))
     (pad "10" smd rect (at 24 5.111 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp eb8f6f9c-922e-4d58-94b9-0d81055e26be))
+      (net 2 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 4d779715-9166-421e-9e46-c7f629c7857e))
     (pad "11" smd rect (at 24 2.571 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "GND") (pinfunction "GND") (pintype "input") (tstamp 265e8abd-da46-4e26-9931-7cfea70adaed))
+      (net 1 "GND") (pinfunction "GND") (pintype "input") (tstamp f6187a2d-0f39-4718-8425-9db780b0082c))
     (pad "18" smd rect (at 0 2.571 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "GND") (pinfunction "GND") (pintype "input") (tstamp 27de8649-24cb-47da-96b0-4d28336aac86))
+      (net 1 "GND") (pinfunction "GND") (pintype "input") (tstamp a6e8273b-13f8-4a5a-a615-9eadb8f12131))
     (pad "19" smd rect (at 0 5.111 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 16 "Net-(U1-Pad12)") (pinfunction "DIO1") (pintype "bidirectional") (tstamp 28e0b73c-6e7d-4da2-ad6f-d689350d1c4e))
+      (net 16 "Net-(U1-Pad12)") (pinfunction "DIO1") (pintype "bidirectional") (tstamp 38a20560-757b-4722-9b33-d0611b36ebe6))
     (pad "20" smd rect (at 0 7.651 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 13 "Net-(U1-Pad9)") (pinfunction "DIO0") (pintype "bidirectional") (tstamp 9133ae65-b777-47b9-8cf7-ef9a8f8e72b6))
+      (net 13 "Net-(U1-Pad9)") (pinfunction "DIO0") (pintype "bidirectional") (tstamp ae1f26a1-4c5b-4ffc-94aa-c9891b5b99d1))
     (pad "21" smd rect (at 0 10.191 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 15 "Net-(U1-Pad11)") (pinfunction "NRST") (pintype "input") (tstamp b369a26a-5453-4fef-92db-2b1a8e010279))
+      (net 15 "Net-(U1-Pad11)") (pinfunction "NRST") (pintype "input") (tstamp 1463b563-f57e-4f01-acf2-6ba2e5c67006))
     (pad "22" smd rect (at 0 12.731 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 26 "Net-(U1-Pad25)") (pinfunction "MISO") (pintype "output") (tstamp 5aa694d5-81d1-40b1-8c1c-6b3145125127))
+      (net 26 "Net-(U1-Pad25)") (pinfunction "MISO") (pintype "output") (tstamp da194a04-bde7-430c-9dbe-d15944bad7cc))
     (pad "23" smd rect (at 0 15.271 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 14 "Net-(U1-Pad10)") (pinfunction "MOSI") (pintype "input") (tstamp a86abd2a-3e28-4d24-9581-f0477b151b02))
+      (net 14 "Net-(U1-Pad10)") (pinfunction "MOSI") (pintype "input") (tstamp cfe7624e-711c-4edd-8e1c-8f5987ad0d71))
     (pad "24" smd rect (at 0 17.811 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 24 "Net-(U1-Pad23)") (pinfunction "SCLK") (pintype "input") (tstamp 9a4356f9-377e-4115-b34b-38a31999a8cf))
+      (net 24 "Net-(U1-Pad23)") (pinfunction "SCLK") (pintype "input") (tstamp 48ba6ed2-0a0e-4b13-898d-82ebe239f85b))
     (pad "25" smd rect (at 0 20.351 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 25 "Net-(U1-Pad24)") (pinfunction "NSS") (pintype "input") (tstamp 13227acf-563c-40f9-ad4e-139f8f7d53fc))
-    (pad "26" smd rect (at 0 27.651 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 38 "unconnected-(U2-Pad26)") (pinfunction "GND") (pintype "input") (tstamp 46ddc337-b58b-42bb-a3f0-23efd58509dd))
-    (pad "27" smd rect (at 0 30.191 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 39 "unconnected-(U2-Pad27)") (pinfunction "ANT") (pintype "input") (tstamp 9912b5d8-b5cd-4325-8b22-85387c4cbddd))
-    (pad "28" smd rect (at 0 32.731 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 40 "unconnected-(U2-Pad28)") (pinfunction "GND") (pintype "input") (tstamp fa470eab-e2de-43aa-8a9c-77fdb2f32920))
-    (group "" (id 141bfae7-43cf-462e-bdc5-5b863d566990)
+      (net 25 "Net-(U1-Pad24)") (pinfunction "NSS") (pintype "input") (tstamp b0713971-57b6-40b2-b0ca-e0f9d9038e41))
+    (pad "26" smd rect (at 0 29.651 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 38 "unconnected-(U2-Pad26)") (pinfunction "GND") (pintype "input") (tstamp 3f404853-f298-467d-94c7-b624ae5a967a))
+    (pad "27" smd rect (at 0 32.191 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 39 "unconnected-(U2-Pad27)") (pinfunction "ANT") (pintype "input") (tstamp 8feb8d3d-3776-4517-8c66-0e86794763d5))
+    (pad "28" smd rect (at 0 34.731 270) (size 3.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 40 "unconnected-(U2-Pad28)") (pinfunction "GND") (pintype "input") (tstamp ab82d8af-c1da-44cd-8e4a-5cd280014ecc))
+    (group "" (id bdb7f77d-9184-44d6-bab7-cbf6b0704cdd)
       (members
-        54e38abe-961b-4810-af39-91ec6064011c
-        70b352b8-618a-4837-8232-d9fdcd6f5e24
-        eaab2938-b4f3-4ebb-ba61-9bb6382be53e
+        281db05e-45e8-4708-8a8a-46582d1874c2
+        2b104cfc-684f-4045-a215-6c25871ff13b
+        37490d11-710c-42b1-84e6-4b6d85cdd2fa
+        4d779715-9166-421e-9e46-c7f629c7857e
+        73ec31ed-9895-4a47-a1dd-70d83acaa674
+        755f125f-23e8-4f9f-939c-26d16ca9348a
+        76d93c0d-a184-46a0-a3e1-191d212e09b4
+        786bbd47-ba67-40d8-af7c-f76bae728b5e
+        8020e638-2392-4228-9de7-4e844bd1348d
+        f1570622-0c6b-4b0a-8aa9-a04b880717fe
+        f6187a2d-0f39-4718-8425-9db780b0082c
       )
     )
-    (group "" (id 8ebec0f4-9cf0-478e-9925-ccb4a4b6a462)
+    (group "" (id e1949532-9de6-4956-80ac-447056737088)
       (members
-        13227acf-563c-40f9-ad4e-139f8f7d53fc
-        27de8649-24cb-47da-96b0-4d28336aac86
-        28e0b73c-6e7d-4da2-ad6f-d689350d1c4e
-        46ddc337-b58b-42bb-a3f0-23efd58509dd
-        5aa694d5-81d1-40b1-8c1c-6b3145125127
-        9133ae65-b777-47b9-8cf7-ef9a8f8e72b6
-        9912b5d8-b5cd-4325-8b22-85387c4cbddd
-        9a4356f9-377e-4115-b34b-38a31999a8cf
-        a86abd2a-3e28-4d24-9581-f0477b151b02
-        b369a26a-5453-4fef-92db-2b1a8e010279
-        fa470eab-e2de-43aa-8a9c-77fdb2f32920
-      )
-    )
-    (group "" (id f3f3e720-9b47-4579-a0fc-1a5545c9979e)
-      (members
-        03bb9b38-c09c-424f-9bc5-5068af64d38f
-        13e455ed-5a15-41d9-99a5-b70d8819ebd5
-        265e8abd-da46-4e26-9931-7cfea70adaed
-        27e29902-3294-40a4-b047-00788bfbef99
-        58d70f19-a01e-4244-9efa-b060ca8dfde1
-        61f6bf65-b581-41a0-9b05-c658009b7026
-        75658d12-f34f-4d65-95f3-54b607364d19
-        8e4a2ef7-0688-4f30-9191-1f8a036694d0
-        d994901b-3f30-41e9-9459-0604c555fdf4
-        eb8f6f9c-922e-4d58-94b9-0d81055e26be
-        f65cb95c-b361-4260-b24a-1b857cd0326a
+        1463b563-f57e-4f01-acf2-6ba2e5c67006
+        38a20560-757b-4722-9b33-d0611b36ebe6
+        3f404853-f298-467d-94c7-b624ae5a967a
+        48ba6ed2-0a0e-4b13-898d-82ebe239f85b
+        8feb8d3d-3776-4517-8c66-0e86794763d5
+        a6e8273b-13f8-4a5a-a615-9eadb8f12131
+        ab82d8af-c1da-44cd-8e4a-5cd280014ecc
+        ae1f26a1-4c5b-4ffc-94aa-c9891b5b99d1
+        b0713971-57b6-40b2-b0ca-e0f9d9038e41
+        cfe7624e-711c-4edd-8e1c-8f5987ad0d71
+        da194a04-bde7-430c-9dbe-d15944bad7cc
       )
     )
   )
@@ -605,42 +598,12 @@
     )
   )
 
-  (gr_line (start 116.894 111.55) (end 116.894 114.4) (layer "F.SilkS") (width 0.15) (tstamp 18352d3f-af72-47ff-a33c-15e3565706ca))
-  (gr_line (start 126.894 111.55) (end 126.894 114.4) (layer "F.SilkS") (width 0.15) (tstamp 8d9d955c-6e9e-4d2d-a648-8ffb4b63ae5e))
-  (gr_line (start 117.1 111.55) (end 126.7 111.55) (layer "F.SilkS") (width 0.15) (tstamp eac1ce08-3086-419a-8717-c53c757edba0))
   (gr_rect (start 149.86 149.86) (end 104.14 30.48) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 9808dea3-9176-4a05-a9c2-259adfcf4857))
-  (gr_text "SpicySpaceCraft" (at 108.204 124.968 90) (layer "B.SilkS") (tstamp 814652cd-4d11-4fab-83ff-adf5cb57fea9)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
   (gr_text "+" (at 145.288 64.008) (layer "F.SilkS") (tstamp 0dc34279-a650-4b42-8bac-78f2b3820e5b)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "SCL\n" (at 122.174 141.224) (layer "F.SilkS") (tstamp 292d3581-8772-4762-a704-193bb5acb0de)
-    (effects (font (size 0.75 0.75) (thickness 0.1875)))
-  )
-  (gr_text "3.3V\n" (at 124.968 141.224) (layer "F.SilkS") (tstamp 29f2083d-0fc2-4665-8453-aa0c8d255702)
-    (effects (font (size 0.75 0.75) (thickness 0.1875)))
-  )
-  (gr_text "GND\n" (at 131.826 75.438) (layer "F.SilkS") (tstamp 58df51bd-acc5-4a95-b850-38d54b3a90c7)
-    (effects (font (size 0.75 0.75) (thickness 0.1875)))
-  )
-  (gr_text "TinyGS Station " (at 144.78 126.238 270) (layer "F.SilkS") (tstamp 9a561032-5e7a-491b-8df6-9bc3cf4a7bce)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_text "-" (at 145.288 74.93 90) (layer "F.SilkS") (tstamp aff39f98-302b-448d-99ed-4543b78fc22c)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
-  (gr_text "VIN\n" (at 132.08 72.898) (layer "F.SilkS") (tstamp d59ad73a-abcb-4213-aae8-156566a49987)
-    (effects (font (size 0.75 0.75) (thickness 0.1875)))
-  )
-  (gr_text "SDA\n" (at 119.634 141.224) (layer "F.SilkS") (tstamp e8a34ab0-1234-4e43-b685-e0f6c112d453)
-    (effects (font (size 0.75 0.75) (thickness 0.1875)))
-  )
-  (gr_text "USB" (at 121.92 113.284) (layer "F.SilkS") (tstamp f5a0daff-9210-4fb2-86f4-47a6f6c8562e)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "GND" (at 127.508 141.224) (layer "F.SilkS") (tstamp fa4efe2b-fed3-4825-93fe-a8cf0a9f997e)
-    (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
 
   (segment (start 147.32 68.58) (end 144.78 71.12) (width 0.5) (layer "F.Cu") (net 1) (tstamp 031e07b2-2576-4e0c-bf1e-e62f5007a0c8))
@@ -688,13 +651,15 @@
   (segment (start 142.24 93.98) (end 137.16 93.98) (width 0.25) (layer "F.Cu") (net 6) (tstamp a069b6b0-d0f3-4d47-8b42-51cc46d9105e))
   (segment (start 144.78 91.44) (end 142.24 93.98) (width 0.25) (layer "F.Cu") (net 6) (tstamp ac567711-42f7-490b-88a8-97f3a5ad1199))
   (segment (start 142.24 86.36) (end 144.78 88.9) (width 0.25) (layer "F.Cu") (net 6) (tstamp e0895437-c9b6-480b-9bd4-8ed42b864acf))
-  (segment (start 121.9545 88.1725) (end 134.5075 88.1725) (width 0.25) (layer "F.Cu") (net 13) (tstamp 0d69774a-3959-4087-b4c0-aaaf56e994be))
-  (segment (start 132.08 50.8) (end 124.714 50.8) (width 0.25) (layer "F.Cu") (net 13) (tstamp 3b93bed1-378f-4e2d-aea8-430566477874))
-  (segment (start 120.65 86.868) (end 121.9545 88.1725) (width 0.25) (layer "F.Cu") (net 13) (tstamp 4a2f70d1-9556-4f27-88f2-be1b49b6b8f3))
-  (segment (start 138.504 44.376) (end 132.08 50.8) (width 0.25) (layer "F.Cu") (net 13) (tstamp 58745ccd-1e5a-4946-852e-9cf295015193))
-  (segment (start 138.504 33.72) (end 138.504 44.376) (width 0.25) (layer "F.Cu") (net 13) (tstamp 76ce7990-84fb-4ef6-82f3-f18efaea57e2))
-  (segment (start 124.714 50.8) (end 120.65 54.864) (width 0.25) (layer "F.Cu") (net 13) (tstamp a1da3952-649c-48f0-bc6f-f0a39df1ca09))
-  (segment (start 120.65 54.864) (end 120.65 86.868) (width 0.25) (layer "F.Cu") (net 13) (tstamp f954f126-a4ea-4aa3-8031-fdb01df710b6))
+  (segment (start 132.08 50.8) (end 124.46 50.8) (width 0.25) (layer "F.Cu") (net 13) (tstamp 1253d3db-0f7c-488f-8dd3-2ee9e6dbfb15))
+  (segment (start 119.38 86.36) (end 121.92 88.9) (width 0.25) (layer "F.Cu") (net 13) (tstamp 1cbcdc41-2a64-4fda-8e7c-f04ce946bbd8))
+  (segment (start 119.38 55.88) (end 119.38 86.36) (width 0.25) (layer "F.Cu") (net 13) (tstamp 2643991f-8c8a-4702-840f-fc7783649784))
+  (segment (start 134.62 88.285) (end 134.5075 88.1725) (width 0.25) (layer "F.Cu") (net 13) (tstamp 29f3c4bc-35ee-43c9-a0ed-58d165beec2e))
+  (segment (start 121.92 88.9) (end 134.62 88.9) (width 0.25) (layer "F.Cu") (net 13) (tstamp 4103240e-4d98-48a2-91c4-c57e28fb2271))
+  (segment (start 138.504 33.72) (end 138.504 44.376) (width 0.25) (layer "F.Cu") (net 13) (tstamp 5b9748df-f2fb-48dc-96bd-d765e1deb235))
+  (segment (start 124.46 50.8) (end 119.38 55.88) (width 0.25) (layer "F.Cu") (net 13) (tstamp 88416ad4-74d1-467e-8ce4-1ac230749fd9))
+  (segment (start 134.62 88.9) (end 134.62 88.285) (width 0.25) (layer "F.Cu") (net 13) (tstamp a745b99f-a1ad-4dd8-9dd8-b90612e3c988))
+  (segment (start 138.504 44.376) (end 132.08 50.8) (width 0.25) (layer "F.Cu") (net 13) (tstamp d6648e8b-139f-43e6-822b-dde77cef39df))
   (segment (start 130.884 33.72) (end 130.884 41.836) (width 0.25) (layer "F.Cu") (net 14) (tstamp 166f68dc-2972-46d4-bad4-125a350cbaab))
   (segment (start 130.884 41.836) (end 129.54 43.18) (width 0.25) (layer "F.Cu") (net 14) (tstamp 59a98c15-53cc-47af-8839-d7b0a9c0cffb))
   (segment (start 116.84 77.216) (end 116.84 73.914) (width 0.25) (layer "F.Cu") (net 14) (tstamp 5eebdef0-13c6-4c14-a87e-ebd0ebe3a3b1))
